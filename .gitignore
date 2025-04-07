@@ -1,0 +1,21 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore outputs and generated content
+outputs/
+style_examples/
+sd_finetuned_model/
+vit_finetuned_model/
+sem6_atml_ds/
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Gradio generated config
+.gradio/
+
+# MacOS system files
+.DS_Store 
